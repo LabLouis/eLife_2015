@@ -1,4 +1,5 @@
-##Wormsign - Closed Loop Larva Virtual-Olfaction-Reality System
+##Wormsign -
+Closed Loop Larva Virtual-Olfaction-Reality System
 
 This software is responsible for the real-time 
 
