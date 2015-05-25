@@ -1,7 +1,7 @@
 ##Wormsign
-###Closed Loop Larva Virtual-Olfaction-Reality System
+####Closed Loop Larva Virtual-Olfaction-Reality System
 
-This software is responsible for the real-time 
+This software is responsible for the real-time: 
 
     1) Image analysis with larvae tracking,
     2) Light stimulus delivery, and 
