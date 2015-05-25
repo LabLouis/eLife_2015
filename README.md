@@ -1,8 +1,8 @@
-# Title: 
+## Title: 
 
-###Authors:
+#####Authors:
 
-###Overview
+####Overview
 
 Contains the scripts for software and design and layout of the hardware associated with the Schulze A. et al. eLife 2015 manuscript. The repository is organised into five modules corresponding to the specific task menstioned in manuscript. Follwoing is the brief description of each module:
 
