@@ -1,5 +1,4 @@
-# eLife_2015
-Title: 
+# Title: 
 
 Authors:
 
@@ -11,7 +10,7 @@ Description: Contains the scripts for software and design and layout of the hard
 4. Wormsign - Contains C++ scripts for the software required to run the high resolution tracker.
 5. Venkman - An independent software module which is used to define the spatial and temporal virtual environments. This module coordinates with the Wormsign module.
 
-Please find the README file for further details in the corresponding folder.
+For further details, please find the README file in the corresponding folders.
 
 For bug reports/comments/feedback, e-mail: mlouis_at_crg.eu or matthieu.louis_at_icloud.com
 
