@@ -1,8 +1,10 @@
 # Title: 
 
-Authors:
+###Authors:
 
-Description: Contains the scripts for software and design and layout of the hardware associated with the Schulze A. et al. eLife 2015 manuscript. The repository is organised into five modules corresponding to the specific task menstioned in manuscript. Follwoing is the brief description of each module:
+###Overview
+
+Contains the scripts for software and design and layout of the hardware associated with the Schulze A. et al. eLife 2015 manuscript. The repository is organised into five modules corresponding to the specific task menstioned in manuscript. Follwoing is the brief description of each module:
 
 1. Electrophysiolgy - Contains scripts associated with the electrophysiology protocols used in the paper.
 2. Spike Sorting (OpSIN) - Contains scripts and examples associated with the post processing of the electrophysiology data.
