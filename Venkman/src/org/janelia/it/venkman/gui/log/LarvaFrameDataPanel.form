@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.janelia.it.venkman.gui.log.LarvaFrameDataPanel">
+  <grid id="2fec8" binding="contentPanel" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:max(d;600px):grow"/>
+    <constraints>
+      <xy x="20" y="20" width="625" height="467"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="1190c">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="27dc6" binding="dataPanel" layout-manager="FormLayout">
+            <rowspec value="center:19px:noGrow"/>
+            <rowspec value="top:7dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;100px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;100px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):grow"/>
+            <constraints/>
+            <properties/>
+            <border type="empty">
+              <size top="10" left="10" bottom="10" right="10"/>
+              <color color="-16777216"/>
+            </border>
+            <children>
+              <component id="79c0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Head Speed (mm/s):"/>
+                </properties>
+              </component>
+              <component id="9d4dd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Midpoint Speed (mm/s):"/>
+                </properties>
+              </component>
+              <component id="19c06" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Tail Speed (mm/s):"/>
+                </properties>
+              </component>
+              <component id="5c6bb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Centroid Speed (mm/s):"/>
+                </properties>
+              </component>
+              <component id="70c83" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Head Angle (degrees):"/>
+                </properties>
+              </component>
+              <component id="aa463" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Head Angle Speed (degrees/s):"/>
+                </properties>
+              </component>
+              <component id="758dd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Body Angle (degrees):"/>
+                </properties>
+              </component>
+              <component id="b955" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="32" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Body Angle Speed (degrees/s):"/>
+                </properties>
+              </component>
+              <component id="35749" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="36" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Tail Speed Dot Body Angle:"/>
+                </properties>
+              </component>
+              <component id="b6eb6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Skeleton Length:"/>
+                </properties>
+              </component>
+              <component id="4dc0d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Behavior Mode:"/>
+                </properties>
+              </component>
+              <component id="4eed8" class="javax.swing.JLabel" binding="motionStateLabel" custom-create="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="b2363" class="javax.swing.JLabel" binding="skeletonLengthLabel" custom-create="true">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="cd8bb" class="javax.swing.JLabel" binding="headSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="19005" class="javax.swing.JLabel" binding="midpointSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="bc316" class="javax.swing.JLabel" binding="tailSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="48dc8" class="javax.swing.JLabel" binding="centroidSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="62128" class="javax.swing.JLabel" binding="headAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="24" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="a6f2d" class="javax.swing.JLabel" binding="headAngleSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="26" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="9cffb" class="javax.swing.JLabel" binding="bodyAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="30" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="78bc4" class="javax.swing.JLabel" binding="bodyAngleSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="32" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="64467" class="javax.swing.JLabel" binding="tailSpeedDotBodyAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="36" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="c28aa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-13421569"/>
+                  <text value="&lt;html&gt;&lt;u&gt;Current&lt;/u&gt;&lt;/html&gt;"/>
+                </properties>
+              </component>
+              <component id="461ea" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-6710887"/>
+                  <text value="&lt;html&gt;&lt;u&gt;Previous&lt;/u&gt;&lt;/html&gt;"/>
+                </properties>
+              </component>
+              <component id="c4da6" class="javax.swing.JLabel" binding="previousMotionStateLabel" custom-create="true">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="baec1" class="javax.swing.JLabel" binding="previousSkeletonLengthLabel" custom-create="true">
+                <constraints>
+                  <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="5579b" class="javax.swing.JLabel" binding="previousHeadSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="e1e21" class="javax.swing.JLabel" binding="previousMidpointSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="66306" class="javax.swing.JLabel" binding="previousTailSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="7d465" class="javax.swing.JLabel" binding="previousCentroidSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="22" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="8489e" class="javax.swing.JLabel" binding="previousHeadAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="24" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="90a03" class="javax.swing.JLabel" binding="previousHeadAngleSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="26" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="ea4e8" class="javax.swing.JLabel" binding="previousBodyAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="30" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="e2076" class="javax.swing.JLabel" binding="previousBodyAngleSpeedLabel" custom-create="true">
+                <constraints>
+                  <grid row="32" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="85788" class="javax.swing.JLabel" binding="previousTailSpeedDotBodyAngleLabel" custom-create="true">
+                <constraints>
+                  <grid row="36" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="374b7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="28" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Smoothed Head Angle Speed (degrees/s):"/>
+                </properties>
+              </component>
+              <component id="731f5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="34" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Smoothed Body Angle Speed (degrees/s):"/>
+                </properties>
+              </component>
+              <component id="a8961" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="38" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Smoothed Tail Speed Dot Body Angle:"/>
+                </properties>
+              </component>
+              <component id="db0e9" class="javax.swing.JLabel" binding="smoothedHeadAngleSpeed" custom-create="true">
+                <constraints>
+                  <grid row="28" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="bb500" class="javax.swing.JLabel" binding="previousSmoothedHeadAngleSpeed" custom-create="true">
+                <constraints>
+                  <grid row="28" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="edf04" class="javax.swing.JLabel" binding="smoothedBodyAngleSpeed" custom-create="true">
+                <constraints>
+                  <grid row="34" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="132a2" class="javax.swing.JLabel" binding="previousSmoothedBodyAngleSpeed" custom-create="true">
+                <constraints>
+                  <grid row="34" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="89315" class="javax.swing.JLabel" binding="smoothedTailSpeedDotBodyAngle" custom-create="true">
+                <constraints>
+                  <grid row="38" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="333ee" class="javax.swing.JLabel" binding="previousSmoothedTailSpeedDotBodyAngle" custom-create="true">
+                <constraints>
+                  <grid row="38" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <hspacer id="f331c">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+              </hspacer>
+              <component id="43941" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <labelFor value="e686c"/>
+                  <text value="Behavior Derivation Logic:"/>
+                </properties>
+              </component>
+              <component id="61c88" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <labelFor value="dbe99"/>
+                  <text value="Position:"/>
+                </properties>
+              </component>
+              <component id="c76f7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="Percentage of Maximum Length:"/>
+                </properties>
+              </component>
+              <component id="4c23e" class="javax.swing.JLabel" binding="percentageOfMaxLengthLabel" custom-create="true">
+                <constraints>
+                  <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="f5f64" class="javax.swing.JLabel" binding="previousPercentageOfMaxLengthLabel" custom-create="true">
+                <constraints>
+                  <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <scrollpane id="5d7e0">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="20" bottom="0" right="0" defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <horizontalScrollBarPolicy value="31"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e686c" class="javax.swing.JTextArea" binding="behaviorModeRationaleTextArea" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <background swing-color="Panel.background"/>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                      <rows value="5"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="9da5e">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="20" bottom="0" right="0" defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <horizontalScrollBarPolicy value="31"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="dbe99" class="javax.swing.JTextArea" binding="positionTextArea" custom-create="true">
+                    <constraints/>
+                    <properties>
+                      <background swing-color="Panel.background"/>
+                      <lineWrap value="true"/>
+                      <rows value="6"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="MissingMnemonic"/>
+    <suppress inspection="NoLabelFor" id="1190c"/>
+    <suppress inspection="NoLabelFor" id="5d7e0"/>
+    <suppress inspection="NoLabelFor" id="9da5e"/>
+  </inspectionSuppressions>
+</form>

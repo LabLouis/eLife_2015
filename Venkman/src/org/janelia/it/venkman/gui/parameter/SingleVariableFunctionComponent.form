@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.janelia.it.venkman.gui.parameter.SingleVariableFunctionComponent">
+  <grid id="27dc6" binding="contentPanel" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;20px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:20px:noGrow"/>
+    <colspec value="left:5dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="527" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c4d86" binding="inputRangePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="51a75" class="javax.swing.JLabel" binding="inputUnitsLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="a8b54" class="javax.swing.JLabel" binding="minInputLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="291bc" class="javax.swing.JLabel" binding="maxInputLabel">
+            <constraints border-constraint="East"/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="4"/>
+              <text value="-"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ea6f4" binding="outputRangePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4583e" class="javax.swing.JLabel" binding="maxOutputLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="4"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="c6dff" class="javax.swing.JLabel" binding="outputUnitsLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="39c0b" class="javax.swing.JLabel" binding="minOutputLabel">
+            <constraints border-constraint="South"/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="4"/>
+              <text value="-"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="86697" binding="viewPanel" custom-create="true" layout-manager="FormLayout">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="fdf4c" binding="parameterPanel" layout-manager="FormLayout">
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:3dlu:noGrow"/>
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:3dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:3dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:3dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:3dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:16px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bc60c" class="javax.swing.JLabel" binding="variableLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <labelFor value="72009"/>
+              <text value="Input Variable:"/>
+            </properties>
+          </component>
+          <component id="72009" class="javax.swing.JComboBox" binding="variableComboBox" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3474d" class="javax.swing.JLabel" binding="inputRangeLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <labelFor value="ec323"/>
+              <text value="Input Range:"/>
+            </properties>
+          </component>
+          <component id="ec323" class="javax.swing.JTextField" binding="minInputTextField" custom-create="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="bc62d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="to"/>
+            </properties>
+          </component>
+          <component id="34acb" class="javax.swing.JTextField" binding="maxInputTextField" custom-create="true">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6662" class="javax.swing.JButton" binding="updateRangeButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Update Range"/>
+            </properties>
+          </component>
+          <grid id="553ac" binding="loadValuesPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="9" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7b97e" class="javax.swing.JButton" binding="loadOutputValuesButton">
+                <constraints/>
+                <properties>
+                  <text value="Load Output Values"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="a2fa6" class="javax.swing.JLabel" binding="inputRangeErrorHandlingMethodLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <labelFor value="b6596"/>
+              <text value="Out of Range Handling:"/>
+            </properties>
+          </component>
+          <component id="b6596" class="javax.swing.JComboBox" binding="inputRangeErrorHandlingMethodComboBox">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a74d8" class="javax.swing.JLabel" binding="behaviorModesLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Behavior Modes:"/>
+            </properties>
+          </component>
+          <grid id="35271" binding="behaviorModesPanel" custom-create="true" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:3dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="56e77" class="javax.swing.JCheckBox" binding="runCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="run"/>
+                </properties>
+              </component>
+              <component id="31470" class="javax.swing.JCheckBox" binding="backUpCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="back-up"/>
+                </properties>
+              </component>
+              <component id="3aca6" class="javax.swing.JCheckBox" binding="turnRightCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="turn-right"/>
+                </properties>
+              </component>
+              <component id="4697c" class="javax.swing.JCheckBox" binding="castRightCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="cast-right"/>
+                </properties>
+              </component>
+              <component id="18213" class="javax.swing.JCheckBox" binding="turnLeftCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="turn-left"/>
+                </properties>
+              </component>
+              <component id="2712f" class="javax.swing.JCheckBox" binding="castLeftCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="cast-left"/>
+                </properties>
+              </component>
+              <component id="dbd44" class="javax.swing.JCheckBox" binding="stopCheckBox" custom-create="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text value="stop"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="e4955" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <labelFor value="3bef3"/>
+              <text value="Apply Output As:"/>
+            </properties>
+          </component>
+          <component id="3bef3" class="javax.swing.JComboBox" binding="applyResultComboBox" custom-create="true">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="e3bb1" class="javax.swing.JButton" binding="toggleDetailsButton">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="+"/>
+          <toolTipText value="expand function view (hides range parameters)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="MissingMnemonic"/>
+    <suppress inspection="NoLabelFor" id="34acb"/>
+  </inspectionSuppressions>
+</form>
