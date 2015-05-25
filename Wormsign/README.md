@@ -2,9 +2,9 @@
 
 This software is responsible for the real-time 
 
-1) Image analysis with larvae tracking,
-2) Light stimulus delivery, and 
-3) Data acquisition.
+    1) Image analysis with larvae tracking,
+    2) Light stimulus delivery, and 
+    3) Data acquisition.
 
 ######Software Developed By:
 Gus K Lott III, PhD, PMP
