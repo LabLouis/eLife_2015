@@ -28,7 +28,7 @@ MAIN.CPP function launches the application GUI (defined in wormsign.h) and sets 
     4) Stage Thread - Communicates with Zaber stages to keep track of current stage position and to track the animal
     5) Experiment Agent Thread - Coordinates the execution of the experiment and carries out data logging
 
-####Wormsign must interconnect with the following systems:
+###Wormsign must interconnect with the following systems:
 
     1) "Venkman" biorules server application (network socket)
     2) Four Zaber Stages (single serial interface)
